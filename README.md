@@ -1,5 +1,5 @@
 # Kickstarter Analysis of Outcomes Based on Goals and Launch Date
-### This project determines how well Kickstarter Campaigns for theatre projects did based on their launch date.  It also includes outcomes based on funding goals for play productions within the theatre category.
+### This project determines how well Kickstarter Campaigns for theatre projects did based on their launch date as well as outcomes based on funding goals for play productions within the theatre category.
 ## Analysis and Challenges
 The <a href="Kickstarter_Challenge.xlsx">dataset</a> that was analyzed for this project is a subset of Kickstarter challenge data dated from 2009 to 2017.  Although this data contains many different categories the analysis is based spefically on the "theatre" category and the "plays" subcategory.  The initial set of data contained information for each campaign about the following:
 **Name**, **Blurb**, **Goal**, **Pledged**, **Outcomes**, **Country**, **Currency**, **Deadline**, **Launched At**, **Staff Pick**, **Backers**, **Spotlight**, 
