@@ -27,9 +27,22 @@ This says that from the primary sheet "Kickstarter" count based on the **Outcome
 <p align="center">
   <img src="Resources/Outcomes_Based_on_Goals.png" width="668" height="333">
 
-### Challenges and Difficulties Encountered
+### Challenges and Difficulties Encountered 
+I encountered two challenges.  One was the loss of all of my work on this challenge.  I am using Excel 365 on a MacBook Pro for the first time and didn't know that inorder to use autosave I needed to turn it on.  Although it was a challenge it also was helpful in that I gained a better insight into what I was creating. <br><br>
+The other difficulty was in the Outcomes Based on Goals sheet.  The COUNTIFS statement was wrong at first so my chart was incorrect.  I realized that I needed to add <= and >= to make the range inclusive.  I also found some missing zeros in the upper ranges causing errors.  Without the graphic in the assignment to compare my chart it would have been possible to miss the number errors.  It makes me realize that copy and paste can be helpful but also dangerous.
 ## Results
 ### Conclusions about Theatre Outcomes by Date
-### Conclusions about Outcomes Based on Goals
+The chart shows that for every three theatre campaigns started in May most likely two will be successful.  This leads us to the conclusion that it is best to start a campaign in May.  While May has the greatest number of successes, the months of April, July and August show some success.  Therefore we can conclude that the Spring and Summer months tend to be the best time to launch a Theatre Campaign on Kickstarter.
+### Conclusions about Outcomes Based on Goal
+The fascinating thing about the Outcomes based on goal chart is how the precentage of successful campaigns is a mirror of the failed campaigns.  Where the line begins at close to 80% successful for campaigns looking to raise less than $1000.  As the goal rises the number of failures rise and the number of successes falls.  while it would be easy to leave the analysis at this point we can't overlook the fact that when a goal of somewhere between $35,000 and $45,000 is set the campaign succeeds.  Finding out what this means would require additional analysis of data, including when was the launch date (maybe in May making it more likely to succeed), what country and also, since the numbers of the total projects in this range is only 10, what were these plays and how popular are they.  Over all though it would be easy to conclude that the more money someone is trying to raise the less likely they are to succeed.
 ### Limitations of Dataset
+Some of the limitations are in the question asked in the conclusions based on goal.  While the graph shows a distinctive success in the $35k to $45k range, it's misleading.  There are more then 1000 projects in what we can see as a decline in funding, while only 10 in a rise in funding but just by looking at the chart that's not apparent.  Also, with Kickstarter campaigns there is usually a "giveaway" with higher funding.  So let's say a successful theatre campaign gives away a t-shirt for smaller amounts pledged but box seats for opening night for higher amounts pledged.  The analysis only knows how much was pledged.  If there was a breakdown for pledged amounts based on "giveaway" then it might be possible to find out if giving away a t-shirt is a good way to get donors.
 ### Other possible information that could be included
+Several things that could also be included in this analysis are:
+* Filtering the Theater Outcomes Based on Launch Date by:
+  * Country
+  * Year
+  * Subcategory
+This would help narrow down factors based on things like how the weather in NZ in the summer months of the US are actually colder.  Or, how fundraising went in an election year in a particular country.  Or just looking at "plays" in both of the sheets.
+* Filtering Outcomes based on Goals might benefit from changing the range from 5000 to 2500, especially in the less than 1000 to 20000 range.
+
