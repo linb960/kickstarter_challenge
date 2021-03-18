@@ -8,6 +8,7 @@ The **Deadline** and **Launched At** dates were provided as Unix timestamps.  Tw
 It was also necessary to split **Category/Subcategory** into two new columns one for **Category** and one for **Subcategory** in order to be able to look at the Theatre category for one analysis and the Play subcategory for the other.<br>
 
 ### Analysis of Outcomes Based on Launch Date
+
 <p align="center">
   <img src="Resources/Theater_Outcomes_vs_Launch.png" width="620" height="333">
   
